@@ -20,8 +20,8 @@ createInertiaApp({
     import.meta.glob it must be import all pages by this line of code
     */
 
-/*  LOLA 25-05-2023
+    /*  LOLA 25-05-2023
     NOTE: All default code here have been deleted 
         : as you can see, the code here are from inertiajs by pasting their configuration
           code provided by the website.
-*/ 
+    */ 

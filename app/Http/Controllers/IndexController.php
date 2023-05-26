@@ -3,16 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Inertia\Inertia;
 
 class IndexController extends Controller
 {
     public function index()
     {
-        return "index";
+        return Inertia::render('index/index');
     }
 
     public function show()
     {
-        return "show";
+        return Inertia::render('index/show');
     }
 }
